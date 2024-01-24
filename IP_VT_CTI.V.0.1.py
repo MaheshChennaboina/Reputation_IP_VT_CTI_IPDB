@@ -242,7 +242,7 @@ def process_excel_CTI(input_file, CTI_api_key, results):
             
 if __name__ == "__main__":
     vt_api_key = '029455493eb333bf6e839263f7375ceb5a97db5845de1b3646775188a7879269'
-    CTI_api_key = 'b40fa6ce50414a719004090c4cf0cbfd1ed801e4ad5f44cb86f541e3d93478ad'
+    CTI_api_key = 'd6ebe18dac304f719ea4be8d64b034645b2de25a50da4e5fbd6d16873acf53ab'
     Abuse_api_key = 'd245bd1979cbe344954820165650546329f8b2598a357927136ed319f9565fd5c5cb0bdcc9796ba6'
     
     input_file = 'input.xlsx'
