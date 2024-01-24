@@ -90,7 +90,11 @@ def get_abuse_info(api_key, ip_address):
         abuse_reports = data['data']['totalReports']
         last_updated = data['data']['lastReportedAt']
 
-        return abuse_confidence_score, abuse_reports, last_updated[:10]
+        if last_updated != None:
+            return abuse_confidence_score, abuse_reports, last_updated[:10]
+        else:
+             last_updated = "No Updates"
+             return abuse_confidence_score, abuse_reports, last_updated   
 
     except requests.exceptions.HTTPError as http_err:
         print(f"HTTP error occurred: {http_err}")
