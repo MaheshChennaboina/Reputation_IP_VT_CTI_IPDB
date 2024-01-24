@@ -16,7 +16,9 @@ pip install -r requirements.txt
 Before running the tool, make sure to update the API keys in the script:
 
 vt_api_key: Your VirusTotal API key
+
 CTI_api_key: Your ThreatBook API key
+
 Abuse_api_key: Your AbuseIPDB API key
 
 **Usage**
